@@ -1772,8 +1772,8 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			width: 50%;
+			margin: 0 auto;
 		}
 
 		.image.left {
@@ -2631,3 +2631,8 @@ input, select, textarea {
 				}
 
 	}
+	/* Align paragraph text to the left */
+.align-left {
+    text-align: left;
+    margin-top: 20px;
+}
